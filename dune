@@ -1,6 +1,7 @@
 (library
  (public_name bheap)
  (name binary_heap)
+ (modes melange native byte)
  (modules binary_heap))
 
 (test
